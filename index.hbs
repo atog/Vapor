@@ -2,7 +2,7 @@
 
 <header id="site-head">
     {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
-    <h2 class="blog-description">{{@blog.description}}</h2>
+    <h2 class="blog-description"><a href="{{@blog.url}}">{{@blog.description}}</a></h2>
 </header>
 
 <main class="content" role="main">
